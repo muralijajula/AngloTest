@@ -1,0 +1,16 @@
+AACommoditiesDashboardUi/node_modules/
+AACommoditiesDashboardUi/dist/
+AACommoditiesDashboardUi/.vscode/
+AA.CommoditiesDashboard.Api/.vs/
+AA.CommoditiesDashboard.Api/AA.CommoditiesDashboard.Infrastructure/bin/
+AA.CommoditiesDashboard.Api/AA.CommoditiesDashboard.Infrastructure/obj/
+AA.CommoditiesDashboard.Api/AA.CommoditiesDashboard.Infrastructure.Tests/obj/
+AA.CommoditiesDashboard.Api/AA.CommoditiesDashboard.Infrastructure.Tests/bin/
+AA.CommoditiesDashboard.Api/AA.CommoditiesDashboard.Domain.Tests/obj/
+AA.CommoditiesDashboard.Api/AA.CommoditiesDashboard.Domain.Tests/bin/
+AA.CommoditiesDashboard.Api/AA.CommoditiesDashboard.Core/obj/
+AA.CommoditiesDashboard.Api/AA.CommoditiesDashboard.Core/bin/
+AA.CommoditiesDashboard.Api/AA.CommoditiesDashboard.Api/obj/
+AA.CommoditiesDashboard.Api/AA.CommoditiesDashboard.Api/bin/
+AA.CommoditiesDashboard.Api/AA.CommoditiesDashboard.Api.UnitTests/obj/
+AA.CommoditiesDashboard.Api/AA.CommoditiesDashboard.Api.UnitTests/bin/

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA.CommoditiesDashboard.Api", "AA.CommoditiesDashboard.Api\AA.CommoditiesDashboard.Api.csproj", "{DF31A7F9-EF0C-4734-AD24-DF5684620590}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA.CommoditiesDashboard.Domain", "AA.CommoditiesDashboard.Core\AA.CommoditiesDashboard.Domain.csproj", "{CD84C219-5081-41F9-9112-3ECA6F0D9776}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA.CommoditiesDashboard.Infrastructure", "AA.CommoditiesDashboard.Infrastructure\AA.CommoditiesDashboard.Infrastructure.csproj", "{FF37B222-5D21-42B3-9459-CC9DE699A07D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA.CommoditiesDashboard.Api.UnitTests", "AA.CommoditiesDashboard.Api.UnitTests\AA.CommoditiesDashboard.Api.UnitTests.csproj", "{8FBD69FE-5A63-42F9-9B60-B6C28F6F46A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA.CommoditiesDashboard.Domain.Tests", "AA.CommoditiesDashboard.Domain.Tests\AA.CommoditiesDashboard.Domain.Tests.csproj", "{74562117-067C-47A3-A137-65E55F6656C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA.CommoditiesDashboard.Infrastructure.Tests", "AA.CommoditiesDashboard.Infrastructure.Tests\AA.CommoditiesDashboard.Infrastructure.Tests.csproj", "{A4EFFD1A-2477-4745-A543-93C13794DB14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF31A7F9-EF0C-4734-AD24-DF5684620590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF31A7F9-EF0C-4734-AD24-DF5684620590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF31A7F9-EF0C-4734-AD24-DF5684620590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF31A7F9-EF0C-4734-AD24-DF5684620590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD84C219-5081-41F9-9112-3ECA6F0D9776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD84C219-5081-41F9-9112-3ECA6F0D9776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD84C219-5081-41F9-9112-3ECA6F0D9776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD84C219-5081-41F9-9112-3ECA6F0D9776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF37B222-5D21-42B3-9459-CC9DE699A07D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF37B222-5D21-42B3-9459-CC9DE699A07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF37B222-5D21-42B3-9459-CC9DE699A07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF37B222-5D21-42B3-9459-CC9DE699A07D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FBD69FE-5A63-42F9-9B60-B6C28F6F46A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FBD69FE-5A63-42F9-9B60-B6C28F6F46A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FBD69FE-5A63-42F9-9B60-B6C28F6F46A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FBD69FE-5A63-42F9-9B60-B6C28F6F46A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74562117-067C-47A3-A137-65E55F6656C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74562117-067C-47A3-A137-65E55F6656C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74562117-067C-47A3-A137-65E55F6656C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74562117-067C-47A3-A137-65E55F6656C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4EFFD1A-2477-4745-A543-93C13794DB14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4EFFD1A-2477-4745-A543-93C13794DB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4EFFD1A-2477-4745-A543-93C13794DB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4EFFD1A-2477-4745-A543-93C13794DB14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79E9FBC9-2F23-4F94-9DB8-AD128C955A0A}
+	EndGlobalSection
+EndGlobal

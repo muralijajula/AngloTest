@@ -1,0 +1,63 @@
+<h2>Recent History</h2>
+<p>last 5 days history of the key actions</p>
+
+<mat-form-field appearance="standard">
+  
+  <input matInput size="50" (keyup)="applyFilter($event)" placeholder="Filter by Model, Commodity, newTradeAction">
+</mat-form-field>
+
+<table class="text-center" mat-table [dataSource]="dataSource" matSort
+    class="mat-elevation">
+
+  <ng-container matColumnDef="model">
+    <th *matHeaderCellDef>
+     Model
+    </th>
+    <td mat-cell *matCellDef="let element"> {{element.model}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="commodity">
+    <th *matHeaderCellDef >
+     Commodity
+    </th>
+    <td mat-cell *matCellDef="let element"> {{element.commodity}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="date">
+    <th  *matHeaderCellDef>
+      Date
+    </th>
+    <td mat-cell *matCellDef="let element"> {{element.date?.toLocaleDateString()}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="newTradeAction">
+    <th *matHeaderCellDef>
+      New Trade Action 
+    </th>
+    <td mat-cell *matCellDef="let element"> {{element.newTradeAction}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="price">
+    <th  *matHeaderCellDef>
+      Price
+    </th>
+    <td mat-cell *matCellDef="let element"> {{element.price}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="position">
+    <th  *matHeaderCellDef>
+      Position
+    </th>
+    <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="pnlDaily">
+    <th  *matHeaderCellDef>
+      PnL Daily 
+    </th>
+    <td mat-cell *matCellDef="let element"> {{element.pnlDaily}} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
